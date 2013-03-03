@@ -1,0 +1,6 @@
+shell -/bin/bash
+termcapinfo xterm-256color|xterm-color|xterm|xterms|xs|rxvt ti@:te@
+escape ^Zz
+altscreen on
+startup_message off
+defscrollback 5000
