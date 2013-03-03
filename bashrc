@@ -16,3 +16,5 @@ alias gx='gitx --all'
 
 alias got='git '
 alias get='git '
+
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
