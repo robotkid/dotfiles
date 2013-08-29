@@ -3,6 +3,10 @@ export PATH=~/bin:/usr/local/bin:/usr/local/munki:/usr/local/share/python3:$PATH
 RUBY_BREW_BINDIR=`brew info ruby|grep /bin|tr -d ' '`
 export PATH=$RUBY_BREW_BINDIR:$PATH
 
+export RBENV_ROOT=/usr/local/var/rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+
 alias gam="python ~/gam/gam.py"
 
 alias gs='git status '
