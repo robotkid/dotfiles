@@ -1,4 +1,4 @@
-export PATH=~/bin:/usr/local/bin:/usr/local/munki:/usr/local/share/python3:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/local/munki:$PATH
 
 RUBY_BREW_BINDIR=`brew info ruby|grep /bin|tr -d ' '`
 export PATH=$RUBY_BREW_BINDIR:$PATH
@@ -22,3 +22,8 @@ alias got='git '
 alias get='git '
 
 alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+
+alias ls='ls -hlAG'
+alias findn='find . -name '"${1}"''
+alias df='df -h'
+alias cdd='cd -'
