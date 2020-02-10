@@ -3,23 +3,23 @@
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
 [submodule "dotfiles-vim/.vim/pack/vendor/start/ctrlp.vim"]
-	path = dotfiles-vim/.vim/pack/vendor/start/ctrlp.vim
+	path = dotfiles-vim/vim/pack/vendor/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "dotfiles-vim/.vim/pack/vendor/start/vim-endwise"]
-	path = dotfiles-vim/.vim/pack/vendor/start/vim-endwise
+	path = dotfiles-vim/vim/pack/vendor/start/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
 [submodule "dotfiles-vim/.vim/pack/vendor/start/vim-fish"]
-	path = dotfiles-vim/.vim/pack/vendor/start/vim-fish
+	path = dotfiles-vim/vim/pack/vendor/start/vim-fish
 	url = https://github.com/blankname/vim-fish.git
 [submodule "dotfiles-vim/.vim/pack/vendor/start/fzf.vim"]
-	path = dotfiles-vim/.vim/pack/vendor/start/fzf.vim
+	path = dotfiles-vim/vim/pack/vendor/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "dotfiles-vim/.vim/pack/vendor/start/vim-tmux-navigator"]
-	path = dotfiles-vim/.vim/pack/vendor/start/vim-tmux-navigator
+	path = dotfiles-vim/vim/pack/vendor/start/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
 [submodule "dotfiles-vim/.vim/pack/vendor/start/nerdtree"]
-	path = dotfiles-vim/.vim/pack/vendor/start/nerdtree
+	path = dotfiles-vim/vim/pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
 [submodule "dotfiles-vim/.vim/pack/vendor/start/vim-easymotion"]
-	path = dotfiles-vim/.vim/pack/vendor/start/vim-easymotion
+	path = dotfiles-vim/vim/pack/vendor/start/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git

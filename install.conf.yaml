@@ -8,7 +8,7 @@
 - clean: ['~']
 
 - link:
-    ~/.config/fish: config-fish
-    ~/.config/fisher: config-fisher
+    ~/.config/fish: config-fish/fish
+    ~/.config/fisher: config-fish/fisher
     ~/.vimrc: dotfiles-vim/vimrc
     ~/.vim: dotfiles-vim/vim
