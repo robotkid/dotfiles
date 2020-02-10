@@ -1,0 +1,14 @@
+---
+
+- defaults:
+    link:
+        relink: true
+        force: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/fish: config-fish
+    ~/.config/fisher: config-fisher
+    ~/.vimrc: dotfiles-vim/vimrc
+    ~/.vim: dotfiles-vim/vim
