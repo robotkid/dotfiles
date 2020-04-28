@@ -3,6 +3,7 @@ export PATH=~/bin:/usr/local/bin:/usr/local/munki:$PATH
 RUBY_BREW_BINDIR=`brew info ruby|grep /bin|tr -d ' '`
 export PATH=$RUBY_BREW_BINDIR:$PATH
 
+
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
