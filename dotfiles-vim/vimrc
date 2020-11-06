@@ -89,3 +89,5 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 map <Leader> <Plug>(easymotion-prefix)
 
 set rtp+=/usr/local/opt/fzf
+
+inoremap ht <ESC>

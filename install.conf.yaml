@@ -9,6 +9,8 @@
 
 - link:
     ~/.config/fish: config-fish/fish
-    ~/.config/fisher: config-fish/fisher
     ~/.vimrc: dotfiles-vim/vimrc
     ~/.vim: dotfiles-vim/vim
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
